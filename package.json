@@ -1,0 +1,19 @@
+{
+  "name": "progres-bot",
+  "version": "1.0.0",
+  "description": "Telegram Bot untuk input dan laporan Progres PSB ke Google Sheets",
+  "main": "bot-new.js",
+  "scripts": {
+    "start": "node bot-new.js",
+    "dev": "node bot-new.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "googleapis": "^121.0.0",
+    "node-telegram-bot-api": "^0.61.0",
+    "express": "^4.18.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
